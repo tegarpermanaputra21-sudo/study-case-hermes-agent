@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #0000f2;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+}
+.card-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  height: 160px;
+  padding: 10px;
+}
+.card p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.mac {
+  background-image: url("img/platform-art-mac.avif");
+  background-size: cover;
+}
+.windows {
+  background-image: url("img/platform-art-windows.avif");
+  background-size: cover;
+}
+.linux {
+  background-image: url("img/platform-art-linux.avif");
+  background-size: cover;
+}
