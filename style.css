@@ -39,6 +39,7 @@ body {
   font-size: 37.12px;
   font-weight: 400;
   margin-bottom: 12px;
+  letter-spacing: -1px;
 }
 .card a {
   font-family: "Space Mono", sans-serif;
@@ -50,7 +51,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 6px 16px;
+  padding: 6px 18px;
 }
 .mac {
   background-image: url("img/platform-art-mac.avif");
