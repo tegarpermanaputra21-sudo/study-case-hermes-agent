@@ -17,8 +17,12 @@ body {
   height: 2000px;
 }
 
+header {
+  width: 90%;
+  margin: 0 auto;
+}
 nav {
-  width: 98%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   margin: 1rem auto;
@@ -66,17 +70,12 @@ nav .logo .icon i:hover {
 #hero {
   display: flex;
   justify-content: space-evenly;
+  margin: 2rem auto;
 }
-/* #hero .right-side-hero img {
-  width: 80%;
-  height: 60%;
-  object-fit: cover;
-  object-position: center;
-} */
 .right-side-hero {
-  width: 50%;
-  height: 500px;
+  width: 55%;
+  height: 650px;
   background-image: url("img/hero-art.webp");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
