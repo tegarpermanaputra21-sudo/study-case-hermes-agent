@@ -9,6 +9,10 @@ body {
   color: #fff;
   font-family: "Times New Roman", Times, serif;
 }
+::selection {
+  color: #0000f2;
+  background-color: #edff46;
+}
 .card-container {
   display: flex;
   justify-content: center;
