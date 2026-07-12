@@ -134,3 +134,7 @@ nav .logo .icon i:hover {
   background-position: top;
   z-index: 0;
 }
+
+#card-wrapper {
+  display: flex;
+}
