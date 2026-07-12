@@ -77,6 +77,7 @@ nav .logo .icon i:hover {
   display: flex;
   justify-content: space-evenly;
   margin: 3rem auto;
+  flex-wrap: wrap-reverse;
 }
 #hero .left-side-hero {
   width: 80%;
@@ -180,4 +181,10 @@ nav .logo .icon i:hover {
 #card-wrapper .right {
   background-image: url(img/platform-art-linux.avif);
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  nav .none {
+    display: none;
+  }
 }
