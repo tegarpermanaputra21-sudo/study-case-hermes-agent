@@ -142,6 +142,7 @@ nav .logo .icon i:hover {
   justify-content: center;
   align-items: center;
   margin: 12rem auto 0;
+  flex-wrap: wrap;
 }
 #card-wrapper .card {
   display: flex;
@@ -150,7 +151,6 @@ nav .logo .icon i:hover {
   width: 320px;
   height: 280px;
   padding: 20px;
-  flex-wrap: wrap;
 }
 #card-wrapper .card .desc h2 {
   font-size: 38px;
