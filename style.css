@@ -77,7 +77,6 @@ nav .logo .icon i:hover {
   display: flex;
   justify-content: space-evenly;
   margin: 3rem auto;
-  flex-wrap: wrap-reverse;
 }
 #hero .left-side-hero {
   width: 80%;
@@ -186,5 +185,8 @@ nav .logo .icon i:hover {
 @media (max-width: 768px) {
   nav .none {
     display: none;
+  }
+  #hero {
+    flex-wrap: wrap-reverse;
   }
 }
