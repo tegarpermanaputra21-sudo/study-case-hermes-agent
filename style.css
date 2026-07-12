@@ -145,12 +145,29 @@ nav .logo .icon i:hover {
 }
 #card-wrapper .card {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 350px;
-  height: 300px;
+  align-items: center;
+  width: 320px;
+  height: 280px;
   padding: 20px;
   flex-wrap: wrap;
+}
+#card-wrapper .card .desc h2 {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+#card-wrapper .card .desc i {
+  margin-right: 5px;
+  vertical-align: center;
+}
+#card-wrapper .card .desc a {
+  padding: 7px 20px;
+  font-family: monospace;
+  font-size: 13px;
+  color: #0000f2;
+  background-color: #f5f5f5;
+  text-decoration: none;
 }
 #card-wrapper .left {
   background-image: url(img/platform-art-mac.avif);
