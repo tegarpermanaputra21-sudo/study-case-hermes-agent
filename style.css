@@ -137,4 +137,30 @@ nav .logo .icon i:hover {
 
 #card-wrapper {
   display: flex;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 12rem auto 0;
+}
+#card-wrapper .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+#card-wrapper .left {
+  background-image: url(img/platform-art-mac.avif);
+  background-size: cover;
+}
+#card-wrapper .middle {
+  background-image: url(img/platform-art-windows.avif);
+  background-size: cover;
+}
+#card-wrapper .right {
+  background-image: url(img/platform-art-linux.avif);
+  background-size: cover;
 }
