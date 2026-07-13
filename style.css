@@ -199,14 +199,23 @@ nav .logo .icon i:hover {
   nav .nav-items {
     font-size: 14px;
   }
-  nav .none {
+  nav .none,
+  nav .nav-items i {
     display: none;
   }
   #hero {
+    width: 100%;
     margin-top: 10px;
     flex-wrap: wrap-reverse;
   }
-  #hero .right-side-hero {
+  #hero .left-side-hero {
     width: 100%;
+  }
+  #hero .left-side-hero h1 {
+    font-size: 60px;
+  }
+  #hero .left-side-hero p,
+  #hero .left-side-hero a {
+    font-size: 12px;
   }
 }
