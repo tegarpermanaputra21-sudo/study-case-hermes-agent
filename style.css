@@ -183,10 +183,30 @@ nav .logo .icon i:hover {
 }
 
 @media (max-width: 768px) {
+  header {
+    width: 100%;
+    padding: 0 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  nav .logo a {
+    font-size: 22px;
+  }
+  nav .logo .icon i,
+  nav .nav-items {
+    font-size: 14px;
+  }
   nav .none {
     display: none;
   }
   #hero {
+    margin-top: 10px;
     flex-wrap: wrap-reverse;
+  }
+  #hero .right-side-hero {
+    width: 100%;
   }
 }
