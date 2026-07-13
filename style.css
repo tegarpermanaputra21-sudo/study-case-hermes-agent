@@ -169,6 +169,9 @@ nav .logo .icon i:hover {
   background-color: #f5f5f5;
   text-decoration: none;
 }
+#card-wrapper .card .desc a:hover {
+  background-color: #f5f5f5f2;
+}
 #card-wrapper .left {
   background-image: url(img/platform-art-mac.avif);
   background-size: cover;
@@ -214,8 +217,11 @@ nav .logo .icon i:hover {
   #hero .left-side-hero h1 {
     font-size: 60px;
   }
-  #hero .left-side-hero p,
-  #hero .left-side-hero a {
+  #hero .left-side-hero .install i {
+    font-size: 14px;
+  }
+  #hero .left-side-hero .install a {
     font-size: 12px;
+    padding: 8px 16px;
   }
 }
